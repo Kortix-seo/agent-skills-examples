@@ -45,6 +45,15 @@ It prints one line per URL. Exit `0` means every URL answered with a 2xx or 3xx 
 
 The hashes in `skills-lock.json` cover the skill files as they appear in this repository. Nothing here was copied from another repository, so there is no upstream pin to bump.
 
+## Where the guide explains each piece
+
+Each part of this repository has a longer explanation on the site that goes with it:
+
+- What a skill is, and how its description decides whether an agent loads it: <https://agentskillsguide.dev/what-are-agent-skills>
+- How a skill differs from an MCP server, and which layer carries the connection rather than the procedure: <https://agentskillsguide.dev/agent-skills-vs-mcp>
+- The three skills in this repository, quoted and read line by line: <https://agentskillsguide.dev/agent-skills-examples>
+- Grants, review and the lockfile, in a repository your team owns: <https://agentskillsguide.dev/agent-skills-in-your-repo>
+
 ## Where the rest is written down
 
 - [How to write a skill](docs/01-write-a-skill.md): the format, the two required fields, the context budgets, and one worked example.
