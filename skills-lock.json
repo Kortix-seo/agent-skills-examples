@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "inbox-router": {
+      "source": "agentskillsguide/agent-skills-examples",
+      "sourceType": "github",
+      "skillPath": "skills/inbox-router/SKILL.md",
+      "computedHash": "a6c375b5a9f1114de69de531f8ae5e3cda9d19df00279b1d714761da2c26d39a"
+    },
+    "release-check": {
+      "source": "agentskillsguide/agent-skills-examples",
+      "sourceType": "github",
+      "skillPath": "skills/release-check/SKILL.md",
+      "computedHash": "5e537d4a72256b72dfe49d2f49175f51efee04a309f1ffcbb6ec98d10272794e"
+    },
+    "link-check": {
+      "source": "agentskillsguide/agent-skills-examples",
+      "sourceType": "github",
+      "skillPath": "skills/link-check/SKILL.md",
+      "computedHash": "061be5014ae2a1ce829077167e74f3981b8dbf95e68da48e194896e750bae9aa"
+    }
+  }
+}
