@@ -1,0 +1,10 @@
+# Kortix project manifest. Behavior lives in agents/triage.md; the grants in
+# the agents.triage block decide what that agent may load and call.
+kortix_version: 2
+default_agent: triage
+
+agents:
+  triage:
+    file: agents/triage.md
+    skills: [inbox-router, release-check]
+    tools: [read, grep, glob, bash]
