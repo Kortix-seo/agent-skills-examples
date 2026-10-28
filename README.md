@@ -45,6 +45,12 @@ It prints one line per URL. Exit `0` means every URL answered with a 2xx or 3xx 
 
 The hashes in `skills-lock.json` cover the skill files as they appear in this repository. Nothing here was copied from another repository, so there is no upstream pin to bump.
 
+## Watch the run
+
+A three-minute recording of the steps above on a clean machine: the `skills/<name>/SKILL.md` file written, the `skills:` grant added to `kortix.yaml`, and `kortix validate` refusing a skill folder that has no `SKILL.md`, with the exit codes it returns. The commands are the ones in this repository.
+
+<https://www.youtube.com/watch?v=pwPdGux7uYo>
+
 ## Where the guide explains each piece
 
 Each part of this repository has a longer explanation on the site that goes with it:
