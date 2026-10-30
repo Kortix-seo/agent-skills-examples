@@ -41,16 +41,18 @@ Each agent names the skills it may load in its own `skills:` list. A folder unde
 | `all` | allow every skill |
 | `none` or `[]` | deny every skill |
 | a list of names | allow those, deny the rest |
-| omitted | the agent file's own rule decides |
+| omitted | grants nothing |
 
-The grant compiles to the agent's `permission.skill` rule. When the key is present it replaces any such rule in the agent file. Left out, the rule in the agent file decides, and no rule allows every skill.
+The grant compiles to the agent's `permission.skill` rule. When the key is present it replaces any such rule in the agent file. Left out, the key grants nothing.
 
 This repository shows what a grant is worth. `kortix.yaml` names two skills for `triage`:
 
 ```yaml
+kortix_version: 3
+
 agents:
   triage:
-    file: agents/triage.md
+    prompt_file: agents/triage.md
     skills: [inbox-router, release-check]
 ```
 
