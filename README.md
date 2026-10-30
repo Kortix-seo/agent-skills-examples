@@ -23,9 +23,11 @@ The repository is also the argument. A skill that only describes a topic gets lo
 3. Run the script once by hand, so you know what a pass looks like before an agent reports one.
 
 ```yaml
+kortix_version: 3
+
 agents:
   triage:
-    file: agents/triage.md
+    prompt_file: agents/triage.md
     skills: [inbox-router, release-check]
 ```
 
