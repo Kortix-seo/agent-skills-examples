@@ -61,6 +61,8 @@ Each part of this repository has a longer explanation on the site that goes with
 - How a skill differs from an MCP server, and which layer carries the connection rather than the procedure: <https://agentskillsguide.dev/agent-skills-vs-mcp>
 - The three skills in this repository, quoted and read line by line: <https://agentskillsguide.dev/agent-skills-examples>
 - Grants, review and the lockfile, in a repository your team owns: <https://agentskillsguide.dev/agent-skills-in-your-repo>
+- The public skill repositories worth reading before you copy a folder: <https://agentskillsguide.dev/agent-skills-github>
+- What a marketplace or directory decides, and what actually lands in your repo: <https://agentskillsguide.dev/agent-skills-marketplace>
 
 ## Where the rest is written down
 
