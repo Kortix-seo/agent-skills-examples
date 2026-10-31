@@ -63,6 +63,10 @@ Each part of this repository has a longer explanation on the site that goes with
 - Grants, review and the lockfile, in a repository your team owns: <https://agentskillsguide.dev/agent-skills-in-your-repo>
 - The public skill repositories worth reading before you copy a folder: <https://agentskillsguide.dev/agent-skills-github>
 - What a marketplace or directory decides, and what actually lands in your repo: <https://agentskillsguide.dev/agent-skills-marketplace>
+- The format's own rules, and what the specification leaves to each client: <https://agentskillsguide.dev/agent-skills-specification>
+- What an installed skill costs before any task arrives, and where the detail moves: <https://agentskillsguide.dev/progressive-disclosure>
+- The checks that read a `SKILL.md` before it ships, and what none of them can tell you: <https://agentskillsguide.dev/validate-a-skill-md>
+- Field by field: the two required keys, the four optional ones, and their limits: <https://agentskillsguide.dev/skill-md-frontmatter>
 
 ## Where the rest is written down
 
