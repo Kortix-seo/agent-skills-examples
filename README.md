@@ -75,7 +75,7 @@ Each part of this repository has a longer explanation on the site that goes with
 - [Granting and reviewing skills](docs/03-grant-and-review.md): the lookup order, the `skills` grant, the change request, and hash pinning.
 - The specification: <https://agentskills.io/specification>
 - More examples and the longer argument: <https://agentskillsguide.dev>
-- Kortix: <https://kortix.com>, and [Kortix on GitHub](https://github.com/kortix-ai/suna)
+- Kortix: <https://kortix.com>, and [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS)
 
 ## Copying
 
